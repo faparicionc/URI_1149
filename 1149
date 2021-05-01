@@ -1,6 +1,6 @@
 #include <stdio.h>
 //O que entendi da questao é: primeiro será lido a, em seguida n. Depois somar (a+0)+(a+1)+(a+2)... até (i<n);
-//mas se n for menor ou igual a zero deverá ser um novo n, apenas n; 
+//mas se n for menor ou igual a zero deverá ser lido um novo n, apenas n; 
 int main(){
     int a,n,s=0,cont=0,i;
     scanf("%d%d",&a,&n); 
